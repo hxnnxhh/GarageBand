@@ -20,38 +20,6 @@
         android:orientation="vertical"
         app:layout_constraintGuide_percent="0.0729927" />
 
-    <ImageButton
-        android:id="@+id/btn_guitar"
-        android:layout_width="178dp"
-        android:layout_height="84dp"
-        android:layout_marginTop="8dp"
-        android:scaleType=""
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.146"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline2"
-        app:layout_constraintVertical_bias="0.065"
-        app:srcCompat="@drawable/guitar" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="128dp"
-        android:layout_height="133dp"
-        android:scaleType=""
-        app:srcCompat="@drawable/drums"
-        tools:layout_editor_absoluteX="267dp"
-        tools:layout_editor_absoluteY="96dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton3"
-        android:layout_width="227dp"
-        android:layout_height="58dp"
-        android:scaleType=""
-        app:srcCompat="@drawable/keyboard"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="199dp" />
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="197dp"
@@ -64,33 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.571" />
-
-    <ImageButton
-        android:id="@+id/imageButton4"
-        android:layout_width="137dp"
-        android:layout_height="242dp"
-        android:scaleType=""
-        app:srcCompat="@drawable/singer"
-        tools:layout_editor_absoluteX="258dp"
-        tools:layout_editor_absoluteY="264dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton5"
-        android:layout_width="220dp"
-        android:layout_height="44dp"
-        android:scaleType=""
-        app:srcCompat="@drawable/guitarelectric"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="274dp" />
-
-    <ImageButton
-        android:id="@+id/imageButton6"
-        android:layout_width="201dp"
-        android:layout_height="181dp"
-        android:scaleType=""
-        app:srcCompat="@drawable/silhouette"
-        tools:layout_editor_absoluteX="34dp"
-        tools:layout_editor_absoluteY="332dp" />
 
     <Button
         android:id="@+id/button"

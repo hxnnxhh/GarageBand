@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_percent="0.04103967" />
+        app:layout_constraintGuide_end="701dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
@@ -87,7 +87,63 @@
         android:layout_height="26dp"
         android:text="Extra Instruments"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="@+id/guideline3"
-        tools:layout_editor_absoluteY="523dp" />
+        tools:layout_editor_absoluteY="537dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="165dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:scaleType=""
+        app:layout_constraintEnd_toStartOf="@+id/guideline4"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="@+id/guideline3"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"
+        app:srcCompat="@drawable/guitar" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="387dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="210dp"
+        android:layout_height="85dp"
+        android:scaleType=""
+        app:srcCompat="@drawable/shadow"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="196dp"
+        android:layout_height="107dp"
+        android:scaleType=""
+        app:srcCompat="@drawable/drums"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="290dp"
+        android:layout_height="122dp"
+        android:scaleType=""
+        app:srcCompat="@drawable/keyboard"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="315dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="220dp"
+        android:layout_height="92dp"
+        android:scaleType=""
+        app:srcCompat="@drawable/recording"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="437dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

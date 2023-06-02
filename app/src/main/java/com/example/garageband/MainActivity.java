@@ -13,7 +13,15 @@ public class MainActivity extends AppCompatActivity {
 
     private ImageButton btnGuitar;
     private ImageButton btnelectric;
-    private ImageButton btnbass;
+    private ImageButton btnPiano;
+    private ImageButton btnDrums;
+    private ImageButton btnFlute;
+    private ImageButton btnMystery;
+    private ImageButton btnKeyboard;
+    private ImageButton btnSinging;
+    private ImageButton btnHarp;
+    private ImageButton btnUkulele;
+    private ImageButton btnViolin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
